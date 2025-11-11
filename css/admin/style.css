@@ -1,0 +1,326 @@
+.toplevel_page_casamedia img {
+    width: 100%;
+    margin: 0 !important;
+    padding: 4px 0px 0px 4px !important;
+    opacity: 1 !important;
+}
+
+.cm-map-photos-meta-box .cm-photos-preview {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cm-map-photos-meta-box .cm-photos-preview .photo-item {
+    position: relative;
+}
+
+.cm-map-photos-meta-box .cm-photos-preview .photo-item .remove-photo {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: #c611fe;
+    color: #fff;
+    border: 1px solid #c611fe;
+    padding: 0px 5px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.cm-map-photos-meta-box .cm-photos-preview .photo-item .remove-photo:hover {
+    background: #fff;
+    color: #c611fe;
+}
+
+.cm-map-photos-meta-box .cm-photos-preview .photo-item img {
+    border: 1px groove #c611fe;
+    padding: 4px;
+    border-radius: 9px;
+}
+
+.post-type-cm_maps_photos #titlediv #title-prompt-text {
+    color: #646970;
+    position: absolute;
+    font-size: 20px;
+    padding: 6px 10px;
+    pointer-events: none;
+}
+
+.cm-select-maps-photos {
+    border: 1px groove #c611fe;
+    font-size: 40px;
+    color: #c611fe;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    transition: .3s;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cm-select-maps-photos:hover {
+    color: #fff !important;
+    background: #c611fe;
+}
+
+.cm-map-photos-meta-box label {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 2px;
+}
+
+.cm-photos-section {
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-radius: 10px;
+}
+
+h2.hndle.ui-sortable-handle {
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.cm-client-users-select .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    cursor: default;
+    padding-left: 16px;
+    padding-right: 0px;
+    color: #fff;
+}
+
+.cm-client-users-select .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-right: 1px solid #fff;
+    transition: .2s;
+}
+
+.cm-client-users-select .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    color: #c611fe;
+    background-color: #fff;
+}
+
+.cm-client-users-select .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #c611fe;
+    border: 1px solid #c611fe;
+    padding: 4px 16px;
+}
+
+.cm-client-users-select .select2-container .select2-search--inline .select2-search__field {
+    height: 28px;
+}
+
+.cm-client-users-select .select2-container--default .select2-selection--multiple .select2-selection__clear {
+    font-weight: 500;
+    padding: 3px 0px;
+    font-size: 24px;
+    height: inherit;
+}
+
+/* ##################################################
+##################################################### */
+
+.custom-plugin-casamedia .action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: end;
+}
+
+.custom-plugin-casamedia .column-actions {
+    width: 15%;
+    text-align: center !important;
+}
+
+.custom-plugin-casamedia .search-box input.button {
+    background-color: #7D08FF;
+    border-color: #7D08FF;
+    color: #fff;
+}
+
+.custom-plugin-casamedia .bulkactions input.action {
+    border-color: #7D08FF;
+    color: #fff;
+    background-color: #7D08FF;
+}
+
+.custom-plugin-casamedia .page-title-action {
+    color: #ffffff !important;
+    background-color: #7D08FF !important;
+    border-color: #7D08FF !important;
+
+}
+
+.custom-plugin-casamedia table.table-view-list tr td .edit-btn {
+    background-color: #7D08FF !important;
+    border-color: #7D08FF !important;
+}
+
+.custom-plugin-casamedia .wrap .page-title-action,
+.wrap .page-title-action:active {
+    border: 1px solid #7D08FF;
+    color: #7D08FF;
+}
+
+.custom-plugin-casamedia th.sortable a:focus,
+th.sorted a:focus {
+    box-shadow: inset 0 0 0 2px #7D08FF;
+    outline: 2px solid transparent;
+}
+
+.custom-plugin-casamedia .widefat tfoot tr td,
+.widefat tfoot tr th,
+.widefat thead tr td,
+.widefat thead tr th {
+    font-weight: 600;
+    color: #2c3338 !important;
+}
+
+.custom-plugin-casamedia input[type=search]:focus {
+    border-color: #7D08FF !important;
+    box-shadow: 0 0 0 1px #7D08FF !important;
+}
+
+/* .wp-core-ui select:focus {
+    border-color: #7D08FF !important;
+    color: #7D08FF !important;
+    box-shadow: 0 0 0 1px #7D08FF !important;
+} */
+
+
+
+.casamedia-modal .modal-header {
+    padding: 0;
+    border: none;
+    justify-content: center;
+}
+
+.casamedia-modal .modal-header h5 {
+    font-weight: 600;
+
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.casamedia-modal .modal-header h5::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #7D08FF;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.casamedia-modal .btn-close {
+    background-image: none;
+    opacity: 1;
+    background-color: #7D08FF;
+    border-radius: 50px;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.casamedia-modal input[type=password]:focus {
+    border-color: #7D08FF !important;
+    box-shadow: 0 0 0 1px #7D08FF !important;
+}
+
+.casamedia-modal input[type=text]:focus {
+    border-color: #7D08FF !important;
+    box-shadow: 0 0 0 1px #7D08FF !important;
+}
+
+.casamedia-modal input[type=email]:focus {
+    border-color: #7D08FF !important;
+    box-shadow: 0 0 0 1px #7D08FF !important;
+}
+
+.casamedia-modal .toggle-visible .toggle-visible-eye {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    color: #010101;
+}
+
+.casamedia-modal .toggle-visible .toggle-visible-eye i {
+    color: #7D08FF;
+}
+
+.casamedia-modal .modal-body input,
+.casamedia-modal .modal-body select {
+    height: 45px !important;
+    font-size: 15px !important;
+
+    font-weight: 400 !important;
+    color: #333 !important;
+    border: 1px solid #8c8f94 !important;
+}
+
+.casamedia-modal .modal-btn-foot {
+    display: inline-block;
+    width: auto;
+    margin: 15px auto 10px;
+    background-color: #7D08FF !important;
+    border-color: #7D08FF !important;
+    padding: 7px 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+
+}
+
+.casamedia-modal .btn-danger.modal-btn-foot {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.casamedia-modal .delete-modal-msg {
+    text-align: center;
+    font-size: 18px;
+
+    font-weight: 500;
+    margin: 10px 0;
+    color: #333;
+}
+
+.casamedia-modal form label {
+    line-height: 1;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.casamedia-modal .iti.iti--allow-dropdown.iti--separate-dial-code {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.casamedia-modal .progress-bar {
+    background-color: #7D08FF !important;
+}
+
+.progress.progress-field {
+    height: 4px !important;
+    margin-bottom: 10px !important;
+}
